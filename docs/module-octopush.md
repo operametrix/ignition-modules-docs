@@ -14,11 +14,11 @@ Téléchargez le module Octopush :
 
 Suite à l’installation du module, créer un Alarm Notification Profile de type Octopush Notification :
 
-![Création de l'Alarm Notification Profile](/docs/module-octopush/001.png)
+![Création de l'Alarm Notification Profile](images/module-octopush/001.png)
 
 Paramétrer l’Alarm Notification Profile avec les informations suivantes :
 
-![Paramétrage de l'Alarm Notification Profile](/docs/module-octopush/002.png)
+![Paramétrage de l'Alarm Notification Profile](images/module-octopush/002.png)
 
 #### Main
 * **Name** * (champ texte) : Nom de l’instance Alarm Notification Profile.
@@ -36,7 +36,7 @@ Paramétrer l’Alarm Notification Profile avec les informations suivantes :
 
 Ajouter un Notification Block avec Octopush :
 
-![Paramétrage du Notification Block](/docs/module-octopush/003.png)
+![Paramétrage du Notification Block](images/module-octopush/003.png)
 
 * **Message** : Contenu du message à envoyer.
 * **Throttled Message** : Contenu du message à envoyer en cas de multiples Alarm Events.
@@ -53,7 +53,7 @@ La configuration sur l’interface admin d’Octopush des callbacks suivant est 
 
 Le format des callbacks est le suivant **https://[IP ou nom de domaine]/system/octopush** :
 
-![Page web Octopush de configuration des callbacks](/docs/module-octopush/004.png)
+![Page web Octopush de configuration des callbacks](images/module-octopush/004.png)
 
 * Test Mode : Configuration du mode simulation de l’API Octopush. Permet de tester le bon fonctionnement de l’API sans envoi effectif de message.
 
