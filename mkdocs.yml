@@ -1,12 +1,26 @@
 site_name: Documentation des modules Ignition
 site_url: https://operametrix.github.io/ignition-modules-docs
+site_author: OperaMetrix SAS
+site_description: Documentation des modules Ignition
+copyright: Copyright © 2025 OperaMetrix SAS
+
 theme:
   name: material
+  language: fr
+  include_sidebar: true
   logo: images/favicon.png
   favicon: images/favicon.png
+  features:
+    - navigation.sections
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
   - attr_list
+
+nav:
+  - index.md
+  - 'Modules':
+    - module-octopush.md
+    - module-teltonika.md
