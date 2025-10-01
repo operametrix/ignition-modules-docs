@@ -1,4 +1,12 @@
-site_name: My site
+site_name: Documentation des modules Ignition
 site_url: https://operametrix.github.io/ignition-modules-docs
 theme:
   name: material
+  logo: images/favicon.png
+  favicon: images/favicon.png
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
